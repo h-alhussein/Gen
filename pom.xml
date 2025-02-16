@@ -10,9 +10,9 @@
 	<groupId>com.dev</groupId>
 	<artifactId>generators</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>passwords-key</name>
+	<name>Generaors</name>
 	<description>generators</description>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>17</java.version>
@@ -74,13 +74,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.baeldung.spring.kafka.KafkaApplication</mainClass>
-				</configuration>
-			</plugin>
+
 		</plugins>
 
 		<finalName>generators</finalName>
